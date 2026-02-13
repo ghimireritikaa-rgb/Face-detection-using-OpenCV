@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread(r"IMG-20251026-WA0052.jpg")
+img = cv.imread(r"download (18).jpeg")
 resized = cv.resize(img, (500, 500))
 gray = cv.cvtColor(resized,  cv.COLOR_BGR2GRAY)
 
